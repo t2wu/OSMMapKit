@@ -1,0 +1,13 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <MapKit/MapKit.h>
+    #import "OSMMapView.h"
+    #import "CocoaCategory.h"
+    #import "MKMapView+ZoomLevel.h"
+#endif

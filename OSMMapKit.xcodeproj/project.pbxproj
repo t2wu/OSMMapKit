@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F83FF4AA23740F4A7667F20 /* libPods-OSMMapKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD2FE420904F2BBDF19A7C /* libPods-OSMMapKitTests.a */; };
+		C22362F0182A59200013F0A8 /* tricity_13_15.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = C22362EF182A59110013F0A8 /* tricity_13_15.mbtiles */; };
+		C2512D6718291E6700FADDE1 /* libPods-FMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2512D6618291E6700FADDE1 /* libPods-FMDB.a */; };
+		C2D419E01827B7090033992D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D419DF1827B7090033992D /* libsqlite3.dylib */; };
+		C2D419E11827B7CF0033992D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D419DF1827B7090033992D /* libsqlite3.dylib */; };
+		C2DEE1231827B4D30031841E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1221827B4D30031841E /* Foundation.framework */; };
+		C2DEE1281827B4D30031841E /* OSMMapKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2DEE1271827B4D30031841E /* OSMMapKit.h */; };
+		C2DEE1311827B4D30031841E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1301827B4D30031841E /* XCTest.framework */; };
+		C2DEE1321827B4D30031841E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE1221827B4D30031841E /* Foundation.framework */; };
+		C2DEE1371827B4D30031841E /* libOSMMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE11F1827B4D30031841E /* libOSMMapKit.a */; };
+		C2DEE13D1827B4D30031841E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2DEE13B1827B4D30031841E /* InfoPlist.strings */; };
+		C2DEE13F1827B4D30031841E /* OSMMapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE13E1827B4D30031841E /* OSMMapKitTests.m */; };
+		C2DEE1621827B5250031841E /* MBTilesDB.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE14A1827B5250031841E /* MBTilesDB.m */; };
+		C2DEE1631827B5250031841E /* MBTilesOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE14C1827B5250031841E /* MBTilesOverlay.m */; };
+		C2DEE1641827B5250031841E /* mkgeometry_additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE14E1827B5250031841E /* mkgeometry_additions.m */; };
+		C2DEE1651827B5250031841E /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1501827B5250031841E /* MKMapView+ZoomLevel.m */; };
+		C2DEE1661827B5250031841E /* MKMapViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1521827B5250031841E /* MKMapViewProxyDelegate.m */; };
+		C2DEE1671827B5250031841E /* NSMutableArray+TrimWhiteSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1541827B5250031841E /* NSMutableArray+TrimWhiteSpace.m */; };
+		C2DEE16A1827B5250031841E /* NSString+Tokenize.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE15A1827B5250031841E /* NSString+Tokenize.m */; };
+		C2DEE16C1827B5250031841E /* OSMMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE15F1827B5250031841E /* OSMMapView.m */; };
+		C2DEE16D1827B5250031841E /* RegionBBoxConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1611827B5250031841E /* RegionBBoxConverter.m */; };
+		C2DEE1791827B5D70031841E /* MBTilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1711827B5D70031841E /* MBTilesTests.m */; };
+		C2DEE17A1827B5D70031841E /* MKGeometryAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1721827B5D70031841E /* MKGeometryAdditionsTests.m */; };
+		C2DEE17B1827B5D70031841E /* MKMapViewProxyDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1731827B5D70031841E /* MKMapViewProxyDelegateTests.m */; };
+		C2DEE17C1827B5D70031841E /* MockRealDelegateWithoutRegionDidChange.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1751827B5D70031841E /* MockRealDelegateWithoutRegionDidChange.m */; };
+		C2DEE17D1827B5D70031841E /* MockRealDelegateWithRegionDidChange.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1771827B5D70031841E /* MockRealDelegateWithRegionDidChange.m */; };
+		C2DEE17E1827B5D70031841E /* OSMMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE1781827B5D70031841E /* OSMMapViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2DEE1351827B4D30031841E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2DEE1171827B4D30031841E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2DEE11E1827B4D30031841E;
+			remoteInfo = OSMMapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2DEE11D1827B4D30031841E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C2DEE1281827B4D30031841E /* OSMMapKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2729BC7D362F4FDC82B8F794 /* Pods-OSMMapKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSMMapKitTests.xcconfig"; path = "Pods/Pods-OSMMapKitTests.xcconfig"; sourceTree = "<group>"; };
+		3CDD2FE420904F2BBDF19A7C /* libPods-OSMMapKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSMMapKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4143B14BD9DF4578AC1FEEF0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		4FFD355A6F01407E93CEA438 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22362EF182A59110013F0A8 /* tricity_13_15.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; name = tricity_13_15.mbtiles; path = OSMMapKit/tricity_13_15.mbtiles; sourceTree = SOURCE_ROOT; };
+		C2512D6418291E5500FADDE1 /* libPods-FMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-FMDB.a"; path = "Pods/build/Debug-iphoneos/libPods-FMDB.a"; sourceTree = "<group>"; };
+		C2512D6618291E6700FADDE1 /* libPods-FMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-FMDB.a"; path = "Pods/build/Debug-iphoneos/libPods-FMDB.a"; sourceTree = "<group>"; };
+		C2D419DF1827B7090033992D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C2DEE11F1827B4D30031841E /* libOSMMapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOSMMapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DEE1221827B4D30031841E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2DEE1261827B4D30031841E /* OSMMapKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSMMapKit-Prefix.pch"; sourceTree = "<group>"; };
+		C2DEE1271827B4D30031841E /* OSMMapKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSMMapKit.h; sourceTree = "<group>"; };
+		C2DEE12F1827B4D30031841E /* OSMMapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSMMapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DEE1301827B4D30031841E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2DEE13A1827B4D30031841E /* OSMMapKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSMMapKitTests-Info.plist"; sourceTree = "<group>"; };
+		C2DEE13C1827B4D30031841E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2DEE13E1827B4D30031841E /* OSMMapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSMMapKitTests.m; sourceTree = "<group>"; };
+		C2DEE1481827B5250031841E /* CocoaCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaCategory.h; sourceTree = "<group>"; };
+		C2DEE1491827B5250031841E /* MBTilesDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTilesDB.h; sourceTree = "<group>"; };
+		C2DEE14A1827B5250031841E /* MBTilesDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTilesDB.m; sourceTree = "<group>"; };
+		C2DEE14B1827B5250031841E /* MBTilesOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTilesOverlay.h; sourceTree = "<group>"; };
+		C2DEE14C1827B5250031841E /* MBTilesOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTilesOverlay.m; sourceTree = "<group>"; };
+		C2DEE14D1827B5250031841E /* mkgeometry_additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mkgeometry_additions.h; sourceTree = "<group>"; };
+		C2DEE14E1827B5250031841E /* mkgeometry_additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mkgeometry_additions.m; sourceTree = "<group>"; };
+		C2DEE14F1827B5250031841E /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		C2DEE1501827B5250031841E /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		C2DEE1511827B5250031841E /* MKMapViewProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMapViewProxyDelegate.h; sourceTree = "<group>"; };
+		C2DEE1521827B5250031841E /* MKMapViewProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMapViewProxyDelegate.m; sourceTree = "<group>"; };
+		C2DEE1531827B5250031841E /* NSMutableArray+TrimWhiteSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TrimWhiteSpace.h"; sourceTree = "<group>"; };
+		C2DEE1541827B5250031841E /* NSMutableArray+TrimWhiteSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TrimWhiteSpace.m"; sourceTree = "<group>"; };
+		C2DEE1591827B5250031841E /* NSString+Tokenize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tokenize.h"; sourceTree = "<group>"; };
+		C2DEE15A1827B5250031841E /* NSString+Tokenize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tokenize.m"; sourceTree = "<group>"; };
+		C2DEE15B1827B5250031841E /* OSMMapKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OSMMapKit-Prefix.pch"; sourceTree = "<group>"; };
+		C2DEE15E1827B5250031841E /* OSMMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSMMapView.h; sourceTree = "<group>"; };
+		C2DEE15F1827B5250031841E /* OSMMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMMapView.m; sourceTree = "<group>"; };
+		C2DEE1601827B5250031841E /* RegionBBoxConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionBBoxConverter.h; sourceTree = "<group>"; };
+		C2DEE1611827B5250031841E /* RegionBBoxConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionBBoxConverter.m; sourceTree = "<group>"; };
+		C2DEE1711827B5D70031841E /* MBTilesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTilesTests.m; sourceTree = "<group>"; };
+		C2DEE1721827B5D70031841E /* MKGeometryAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKGeometryAdditionsTests.m; sourceTree = "<group>"; };
+		C2DEE1731827B5D70031841E /* MKMapViewProxyDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMapViewProxyDelegateTests.m; sourceTree = "<group>"; };
+		C2DEE1741827B5D70031841E /* MockRealDelegateWithoutRegionDidChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockRealDelegateWithoutRegionDidChange.h; sourceTree = "<group>"; };
+		C2DEE1751827B5D70031841E /* MockRealDelegateWithoutRegionDidChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockRealDelegateWithoutRegionDidChange.m; sourceTree = "<group>"; };
+		C2DEE1761827B5D70031841E /* MockRealDelegateWithRegionDidChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockRealDelegateWithRegionDidChange.h; sourceTree = "<group>"; };
+		C2DEE1771827B5D70031841E /* MockRealDelegateWithRegionDidChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockRealDelegateWithRegionDidChange.m; sourceTree = "<group>"; };
+		C2DEE1781827B5D70031841E /* OSMMapViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMMapViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2DEE11C1827B4D30031841E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D419E01827B7090033992D /* libsqlite3.dylib in Frameworks */,
+				C2DEE1231827B4D30031841E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEE12C1827B4D30031841E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2512D6718291E6700FADDE1 /* libPods-FMDB.a in Frameworks */,
+				C2D419E11827B7CF0033992D /* libsqlite3.dylib in Frameworks */,
+				C2DEE1311827B4D30031841E /* XCTest.framework in Frameworks */,
+				C2DEE1371827B4D30031841E /* libOSMMapKit.a in Frameworks */,
+				C2DEE1321827B4D30031841E /* Foundation.framework in Frameworks */,
+				4F83FF4AA23740F4A7667F20 /* libPods-OSMMapKitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2DEE1161827B4D30031841E = {
+			isa = PBXGroup;
+			children = (
+				C2DEE1241827B4D30031841E /* OSMMapKit */,
+				C2DEE1381827B4D30031841E /* OSMMapKitTests */,
+				C2DEE1211827B4D30031841E /* Frameworks */,
+				C2DEE1201827B4D30031841E /* Products */,
+				4143B14BD9DF4578AC1FEEF0 /* Pods.xcconfig */,
+				2729BC7D362F4FDC82B8F794 /* Pods-OSMMapKitTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C2DEE1201827B4D30031841E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE11F1827B4D30031841E /* libOSMMapKit.a */,
+				C2DEE12F1827B4D30031841E /* OSMMapKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2DEE1211827B4D30031841E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2512D6618291E6700FADDE1 /* libPods-FMDB.a */,
+				C2512D6418291E5500FADDE1 /* libPods-FMDB.a */,
+				C2D419DF1827B7090033992D /* libsqlite3.dylib */,
+				C2DEE1221827B4D30031841E /* Foundation.framework */,
+				C2DEE1301827B4D30031841E /* XCTest.framework */,
+				4FFD355A6F01407E93CEA438 /* libPods.a */,
+				3CDD2FE420904F2BBDF19A7C /* libPods-OSMMapKitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2DEE1241827B4D30031841E /* OSMMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE1271827B4D30031841E /* OSMMapKit.h */,
+				C2DEE16F1827B5600031841E /* MBTiles */,
+				C2DEE16E1827B52E0031841E /* Cocoa additions */,
+				C2DEE1701827B5700031841E /* Map additions */,
+				C2DEE15B1827B5250031841E /* OSMMapKit-Prefix.pch */,
+				C2DEE1251827B4D30031841E /* Supporting Files */,
+			);
+			path = OSMMapKit;
+			sourceTree = "<group>";
+		};
+		C2DEE1251827B4D30031841E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE1261827B4D30031841E /* OSMMapKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2DEE1381827B4D30031841E /* OSMMapKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C22362EF182A59110013F0A8 /* tricity_13_15.mbtiles */,
+				C2DEE17F1827B5E20031841E /* Mock and Stubs */,
+				C2DEE1711827B5D70031841E /* MBTilesTests.m */,
+				C2DEE1721827B5D70031841E /* MKGeometryAdditionsTests.m */,
+				C2DEE1731827B5D70031841E /* MKMapViewProxyDelegateTests.m */,
+				C2DEE1781827B5D70031841E /* OSMMapViewTests.m */,
+				C2DEE13E1827B4D30031841E /* OSMMapKitTests.m */,
+				C2DEE1391827B4D30031841E /* Supporting Files */,
+			);
+			path = OSMMapKitTests;
+			sourceTree = "<group>";
+		};
+		C2DEE1391827B4D30031841E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE13A1827B4D30031841E /* OSMMapKitTests-Info.plist */,
+				C2DEE13B1827B4D30031841E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2DEE16E1827B52E0031841E /* Cocoa additions */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE1481827B5250031841E /* CocoaCategory.h */,
+				C2DEE1591827B5250031841E /* NSString+Tokenize.h */,
+				C2DEE15A1827B5250031841E /* NSString+Tokenize.m */,
+				C2DEE1531827B5250031841E /* NSMutableArray+TrimWhiteSpace.h */,
+				C2DEE1541827B5250031841E /* NSMutableArray+TrimWhiteSpace.m */,
+			);
+			name = "Cocoa additions";
+			sourceTree = "<group>";
+		};
+		C2DEE16F1827B5600031841E /* MBTiles */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE1491827B5250031841E /* MBTilesDB.h */,
+				C2DEE14A1827B5250031841E /* MBTilesDB.m */,
+				C2DEE14B1827B5250031841E /* MBTilesOverlay.h */,
+				C2DEE14C1827B5250031841E /* MBTilesOverlay.m */,
+				C2DEE15E1827B5250031841E /* OSMMapView.h */,
+				C2DEE15F1827B5250031841E /* OSMMapView.m */,
+				C2DEE1511827B5250031841E /* MKMapViewProxyDelegate.h */,
+				C2DEE1521827B5250031841E /* MKMapViewProxyDelegate.m */,
+			);
+			name = MBTiles;
+			sourceTree = "<group>";
+		};
+		C2DEE1701827B5700031841E /* Map additions */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE14D1827B5250031841E /* mkgeometry_additions.h */,
+				C2DEE14E1827B5250031841E /* mkgeometry_additions.m */,
+				C2DEE14F1827B5250031841E /* MKMapView+ZoomLevel.h */,
+				C2DEE1501827B5250031841E /* MKMapView+ZoomLevel.m */,
+				C2DEE1601827B5250031841E /* RegionBBoxConverter.h */,
+				C2DEE1611827B5250031841E /* RegionBBoxConverter.m */,
+			);
+			name = "Map additions";
+			sourceTree = "<group>";
+		};
+		C2DEE17F1827B5E20031841E /* Mock and Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE1741827B5D70031841E /* MockRealDelegateWithoutRegionDidChange.h */,
+				C2DEE1751827B5D70031841E /* MockRealDelegateWithoutRegionDidChange.m */,
+				C2DEE1761827B5D70031841E /* MockRealDelegateWithRegionDidChange.h */,
+				C2DEE1771827B5D70031841E /* MockRealDelegateWithRegionDidChange.m */,
+			);
+			name = "Mock and Stubs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2DEE11E1827B4D30031841E /* OSMMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DEE1421827B4D30031841E /* Build configuration list for PBXNativeTarget "OSMMapKit" */;
+			buildPhases = (
+				A8CBEDD704E24B128391A59B /* Check Pods Manifest.lock */,
+				C2DEE11B1827B4D30031841E /* Sources */,
+				C2DEE11C1827B4D30031841E /* Frameworks */,
+				C2DEE11D1827B4D30031841E /* CopyFiles */,
+				88AD5A70FF254BB1A81F3219 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSMMapKit;
+			productName = OSMMapKit;
+			productReference = C2DEE11F1827B4D30031841E /* libOSMMapKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2DEE12E1827B4D30031841E /* OSMMapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DEE1451827B4D30031841E /* Build configuration list for PBXNativeTarget "OSMMapKitTests" */;
+			buildPhases = (
+				83612AF85A694DBD81CBF167 /* Check Pods Manifest.lock */,
+				C2DEE12B1827B4D30031841E /* Sources */,
+				C2DEE12C1827B4D30031841E /* Frameworks */,
+				C2DEE12D1827B4D30031841E /* Resources */,
+				8C7BFBB8DD5444E6B6251F0B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2DEE1361827B4D30031841E /* PBXTargetDependency */,
+			);
+			name = OSMMapKitTests;
+			productName = OSMMapKitTests;
+			productReference = C2DEE12F1827B4D30031841E /* OSMMapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2DEE1171827B4D30031841E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Timothy Wu";
+			};
+			buildConfigurationList = C2DEE11A1827B4D30031841E /* Build configuration list for PBXProject "OSMMapKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2DEE1161827B4D30031841E;
+			productRefGroup = C2DEE1201827B4D30031841E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2DEE11E1827B4D30031841E /* OSMMapKit */,
+				C2DEE12E1827B4D30031841E /* OSMMapKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2DEE12D1827B4D30031841E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22362F0182A59200013F0A8 /* tricity_13_15.mbtiles in Resources */,
+				C2DEE13D1827B4D30031841E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83612AF85A694DBD81CBF167 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88AD5A70FF254BB1A81F3219 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7BFBB8DD5444E6B6251F0B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-OSMMapKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8CBEDD704E24B128391A59B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2DEE11B1827B4D30031841E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEE16A1827B5250031841E /* NSString+Tokenize.m in Sources */,
+				C2DEE1651827B5250031841E /* MKMapView+ZoomLevel.m in Sources */,
+				C2DEE1661827B5250031841E /* MKMapViewProxyDelegate.m in Sources */,
+				C2DEE16C1827B5250031841E /* OSMMapView.m in Sources */,
+				C2DEE1671827B5250031841E /* NSMutableArray+TrimWhiteSpace.m in Sources */,
+				C2DEE16D1827B5250031841E /* RegionBBoxConverter.m in Sources */,
+				C2DEE1621827B5250031841E /* MBTilesDB.m in Sources */,
+				C2DEE1631827B5250031841E /* MBTilesOverlay.m in Sources */,
+				C2DEE1641827B5250031841E /* mkgeometry_additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEE12B1827B4D30031841E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEE17A1827B5D70031841E /* MKGeometryAdditionsTests.m in Sources */,
+				C2DEE17C1827B5D70031841E /* MockRealDelegateWithoutRegionDidChange.m in Sources */,
+				C2DEE17E1827B5D70031841E /* OSMMapViewTests.m in Sources */,
+				C2DEE17B1827B5D70031841E /* MKMapViewProxyDelegateTests.m in Sources */,
+				C2DEE1791827B5D70031841E /* MBTilesTests.m in Sources */,
+				C2DEE17D1827B5D70031841E /* MockRealDelegateWithRegionDidChange.m in Sources */,
+				C2DEE13F1827B4D30031841E /* OSMMapKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2DEE1361827B4D30031841E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2DEE11E1827B4D30031841E /* OSMMapKit */;
+			targetProxy = C2DEE1351827B4D30031841E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2DEE13B1827B4D30031841E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2DEE13C1827B4D30031841E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2DEE1401827B4D30031841E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2DEE1411827B4D30031841E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2DEE1431827B4D30031841E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4143B14BD9DF4578AC1FEEF0 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/OSMMapKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSMMapKit/OSMMapKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2DEE1441827B4D30031841E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4143B14BD9DF4578AC1FEEF0 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/OSMMapKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSMMapKit/OSMMapKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2DEE1461827B4D30031841E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2729BC7D362F4FDC82B8F794 /* Pods-OSMMapKitTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSMMapKit/OSMMapKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OSMMapKitTests/OSMMapKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2DEE1471827B4D30031841E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2729BC7D362F4FDC82B8F794 /* Pods-OSMMapKitTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSMMapKit/OSMMapKit-Prefix.pch";
+				INFOPLIST_FILE = "OSMMapKitTests/OSMMapKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2DEE11A1827B4D30031841E /* Build configuration list for PBXProject "OSMMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEE1401827B4D30031841E /* Debug */,
+				C2DEE1411827B4D30031841E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DEE1421827B4D30031841E /* Build configuration list for PBXNativeTarget "OSMMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEE1431827B4D30031841E /* Debug */,
+				C2DEE1441827B4D30031841E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DEE1451827B4D30031841E /* Build configuration list for PBXNativeTarget "OSMMapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEE1461827B4D30031841E /* Debug */,
+				C2DEE1471827B4D30031841E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2DEE1171827B4D30031841E /* Project object */;
+}
